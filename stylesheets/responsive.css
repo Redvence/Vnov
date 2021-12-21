@@ -1,0 +1,550 @@
+@media only screen and (min-width: 1367px) and (max-width: 1440px){
+  body{
+    width: 1440px;
+  }
+  .name{
+    height: 360px;
+  }
+  .t1, .t2{
+    width: 275px;
+  }
+  .tapetxt1, .tapetxt2{
+  left: 102px;
+  bottom: 122px;
+  }
+  .diskovod1, .diskovod2{
+    width: 420px;
+  }
+  .tvshum{
+    width: 540px;
+    height: 460px;
+  }
+  .wiredisc1{
+    top: 265px;
+  }
+  .wiredisc2{
+    top: 127px;
+  }
+  .book{
+    width: 80px;
+  }
+  .allbooks1{
+    width: 646px;
+    height: 348px;
+  }
+  .book5{
+    left: 123px;
+    top: 12px;
+  }
+  .book4{
+    left: 220px;
+    top: 12px;
+  }
+  .book3{
+    left: 354px;
+  }
+  .book2{
+    left: 488px;
+  }
+  .book1{
+    left: 567px;
+  }
+  .date{
+    font-size: 36px;
+    left: -53px;
+    top: 160px;
+  }
+  .kek{
+    height: 33px;
+    width: 220px;
+  }
+  .booksalot{
+    margin-top: -345px;
+  }
+  .allbooks1{
+    margin-left: -25px;
+  }
+  .shelf1{
+    top: 110px;
+  }
+  .shelf2, .shelf3, .shelff{
+    height: 40px;
+  }
+  .disc{
+    width: 216px;
+    margin-left: -119px;
+  }
+  .wire1{
+    width: 208px;
+    left: 640px;
+  }
+  .wire2{
+    width: 540px;
+    left: 900px;
+  }
+  .schbook{
+    width: 416px;
+    height: 36px;
+  }
+  .disc0, .disc10{
+    display: none;
+  }
+  .name2{
+    width: 180px;
+    height: 130px;
+    top: 82px;
+  }
+  .disc5{
+    margin-left: -4px;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1366px){
+  body{
+    width: 1366px;
+  }
+  .allbooks1{
+    margin-left: -98px;
+  }
+  .shelff{
+    width: 480px;
+  }
+  .name{
+    height: 360px;
+  }
+  .t1, .t2{
+    width: 275px;
+  }
+  .tapetxt1, .tapetxt2{
+  left: 102px;
+  bottom: 122px;
+  }
+  .diskovod1, .diskovod2{
+    width: 420px;
+  }
+  .tvshum{
+    width: 540px;
+    height: 460px;
+  }
+  .wiredisc1{
+
+    top: 265px;
+  }
+  .wiredisc2{
+    top: 127px;
+  }
+  .book{
+    width: 80px;
+  }
+  .allbooks1{
+    width: 646px;
+    height: 348px;
+  }
+  .book5{
+    left: 123px;
+    top: 12px;
+  }
+  .book4{
+    left: 220px;
+    top: 12px;
+  }
+  .book3{
+    left: 354px;
+  }
+  .book2{
+    left: 488px;
+  }
+  .book1{
+    left: 567px;
+  }
+  .date{
+    font-size: 36px;
+    left: -53px;
+    top: 160px;
+  }
+  .kek{
+    height: 33px;
+    width: 220px;
+  }
+  .booksalot{
+    margin-top: -345px;
+  }
+  .shelf1{
+    top: 110px;
+  }
+}
+@media only screen and (max-width: 1024px){
+  body{
+    width: 1024px;
+  }
+  .borderline{
+    border-radius: 4px;
+    outline: 4px solid black;
+    outline-offset: -4px;
+  }
+  .name{
+    height: 300px;
+    z-index: 2;
+  }
+  .text1{
+    font-size: 60px;
+  }
+  .allbooks1{
+    margin-left: -230px;
+  }
+  .shelff{
+    width: 380px;
+    height: 34px;
+  }
+  .name{
+    height: 360px;
+  }
+  .t1, .t2{
+    width: 228px;
+  }
+  .tapetxt1, .tapetxt2{
+  font-size: 15px;
+  left: 84px;
+  bottom: 102px;
+  }
+  .lol{
+    width: 228px;
+    height: 145px;
+  }
+  .name1{
+    width: 288px;
+    height: 120px;
+    left: 0px;
+  }
+  .diskovod1, .diskovod2{
+    width: 350px;
+  }
+  .tvshum{
+    width: 450px;
+    height: 380px;
+  }
+  .wiredisc1{
+    width: 30px;
+    top: 195px;
+    left: 280px;
+  }
+  .wiredisc2{
+    width: 30px;
+    top: 70px;
+    left: 360px;
+  }
+  .book{
+    width: 68px;
+  }
+  .allbooks1{
+    width: 635px;
+    height: 295px;
+  }
+  .book5{
+    left: 195px;
+    top: 12px;
+  }
+  .book4{
+    left: 275px;
+    top: 12px;
+  }
+  .book3{
+    left: 390px;
+  }
+  .book2{
+    left: 502px;
+  }
+  .book1{
+    left: 567px;
+  }
+  .date{
+    font-size: 26px;
+    left: -53px;
+    top: 116px;
+  }
+  .kek{
+    height: 27px;
+    width: 182px;
+  }
+  .booksalot{
+    margin-left: -72px;
+    margin-top: -200px;
+    z-index: 1;
+  }
+  .shelf1{
+    top: 75px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* iPad */
+  body{
+    width: 768px;
+  }
+  .borderline{
+    border-radius: 3.5px;
+    outline: 3.5px solid black;
+    outline-offset: -3.5px;
+  }
+  .name{
+    height: 250px;
+  }
+  .text1{
+    font-size: 55px;
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+  .text3{
+    font-size: 20px;
+    line-height: 25px;
+    padding-left: 32px;
+    padding-top: 12px;
+  }
+  .shelff, .shelf2, .shelf3{
+    height: 30px;
+  }
+  .shelff{
+    width: 355px;
+  }
+  .shelf1 {
+    width: 485px;
+    height: 235px;
+    top: 58px;
+  }
+  .shelf2{
+    margin-top: -11px;
+  }
+  .name1{
+    width: 215px;
+    height: 100px;
+    top: -34px;
+    left: 63px;
+  }
+  .book{
+    width: 60px;
+  }
+  .allbooks1{
+    width: 626px;
+    height: 262px;
+    margin-left: -360px;
+  }
+  .book2 {
+    left: 508px;
+  }
+  .book3 {
+    left: 408px;
+  }
+  .book5, .book4{
+    display: none;
+  }
+  .date {
+    font-size: 26px;
+    left: -58px;
+    top: 96px;
+  }
+  .text2{
+    font-size: 32px;
+  line-height: 31px;
+  }
+  .t1, .t2{
+    width: 205px;
+  }
+  .lol{
+    height: 133px;
+  }
+  .tapetxt1, .tapetxt2{
+    left: 75px;
+    bottom: 94px;
+  }
+  .wire1{
+    width: 159px;
+    left: 225px;
+    top: -30px;
+  }
+  .wire2{
+    width: 402px;
+    left: 363px;
+    top: -30px;
+  }
+  .diskovod1, .diskovod2{
+    width: 315px;
+  }
+  .wiredisc1 {
+    width: 26px;
+    top: 163px;
+    left: 207px;
+  }
+  .wiredisc2 {
+    width: 26px;
+    top: 31px;
+    left: 311px;
+  }
+  .tvshum{
+    width: 405px;
+    height: 345px;
+  }
+  .booksalot {
+    margin-left: -105px;
+    margin-top: -163px;
+    z-index: 1;
+    top: -11px;
+  }
+  .kek {
+    height: 25px;
+    width: 165px;
+  }
+  .disc{
+    width: 178px;
+    margin-left: -144px;
+  }
+  .disc0, .disc3, .disc6, .disc7, .disc8, .disc9, .disc10{
+    display: none;
+  }
+  .schbook{
+    width: 340px;
+    height: 30px;
+  }
+  .name2{
+    left: 135px;
+    top: 65px;
+    width: 149px;
+    height: 112px;
+  }
+  .disc5{
+    margin-left: -4px;
+  }
+  .disc1{
+    margin-left: -4px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* iPad Portrait */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* iPad Landscape */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* iPhone */
+  body{
+    width: 414px;
+  }
+  .borderline{
+    border-radius: 2.5px;
+    outline: 2.5px solid black;
+    outline-offset: -2.5px;
+  }
+  .wire1, .wire2{
+    display: none;
+  }
+  .name{
+    height: 182px;
+  }
+  .text1{
+    font-size: 44px;
+    padding: 49px 29px;
+  }
+  .text3{
+    display: none;
+  }
+  .shelff, .shelf2, .shelf3{
+    height: 22px
+  }
+  .lol{
+    width: 228px;
+    height: 90px;
+  }
+  .lol1{
+    margin-left: -44px;
+  }
+  .lol2{
+    margin-left: -50px;
+  }
+  .t1{
+    height: 90px;
+  }
+  .t2{
+    height: 90px;
+  }
+  .tapetxt1, .tapetxt2{
+    font-size: 11px;
+    left: 95px;
+    bottom: 62px;
+  }
+  .shelf1{
+    width: 390px;
+  }
+  .shelff{
+    width: 250px;
+  }
+  .name1{
+    width: 190px;
+    height: 104px;
+    top: -26px;
+  }
+  .text2{
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .allbooks1{
+    display: none;
+  }
+  .diskovod1, .diskovod2{
+    width: 212px;
+  }
+  .wiredisc1, .wiredisc2{
+    width: 15px;
+  }
+  .tvshum{
+    width: 267px;
+    height: 232px;
+  }
+  .wiredisc1{
+    top: 57px;
+    left: 170px;
+  }
+  .wiredisc2{
+    top: -81px;
+    left: 204px;
+  }
+  .booksalot{
+    margin-top: -316px;
+  }
+  .disc0, .disc2, .disc5, .disc6, .disc7, .disc8, .disc9, .disc10{
+    display: none;
+  }
+  .disc{
+    width: 120px;
+    margin-left: -92px;
+  }
+  .disc1{
+    margin-left: 0px;
+  }
+  .schbook{
+    height: 20px;
+    width: 229px;
+  }
+  .cltxt{
+    font-size: 100%;
+  }
+  .txtbooksalot{
+    font-size: 100%;
+  }
+  .name2{
+    width: 128px;
+    height: 90px;
+    left: 86px;
+    top: 28px;
+  }
+  .name2txt{
+    font-size: 150%;
+    line-height: 80%;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+  /* iPhone Portrait */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+  /* iPhone Landscape */
+}

@@ -246,15 +246,20 @@
   .allvinyl{
     bottom: 38px;
   }
-/* @media only screen and (min-width: 1025px) and (max-width: 1366px){
+}
+@media only screen and (min-width: 1025px) and (max-width: 1366px){
   body{
     width: 1366px;
   }
   .allbooks1{
     margin-left: -98px;
   }
+  .shelff, .shelf2, .shelf3, .shelf4, .shelf5, .shelf6, .shelf7, .shlef8{
+    height: 40px;
+  }
   .shelff{
     width: 480px;
+    height: 40px;
   }
   .name{
     height: 360px;
@@ -270,7 +275,6 @@
     height: 460px;
   }
   .wiredisc1{
-
     top: 265px;
   }
   .wiredisc2{
@@ -315,8 +319,167 @@
   .shelf1{
     top: 110px;
   }
-} */
-/* @media only screen and (max-width: 1024px){
+  .wire1{
+    left: 540px;
+    top: -40px;
+    width: auto
+  }
+  .wire2{
+    left: 820px;
+    top: -40px;
+    width: auto
+  }
+  .disc0, .disc10, .disc9{
+    display: none;
+  }
+  .disc{
+    width: auto;
+    margin-left: -115px;
+  }
+  .disc5{
+    margin-left: -4px;
+  }
+  .schbook{
+    width: 416px;
+    height: 36px;
+  }
+  .PCimg{
+    width: auto;
+  }
+  .monitor{
+    width: 480px;
+    height: 380px;
+  }
+  .tape3img{
+    width: auto;
+  }
+  .schbookk{
+    width: 36px;
+    height: 416px;
+  }
+  .schbook1{
+    width: 36px;
+    height: 416px;
+    left: 883px;
+  }
+  .shelf4{
+    width: 1280px;
+  }
+  .name5{
+    top: 344px;
+  }
+  .name4{
+    top: 215px;
+  }
+  .shelf5, .shelf6, .shelf7{
+    height: 40px;
+  }
+  .shelf5{
+    width: 1000px;
+    left: 54px;
+  }
+  .shelf6{
+    width: 430px;
+  }
+  .tape4{
+    width: auto;
+    margin-left: 0px;
+  }
+  .tape5{
+    width: auto;
+  }
+  .smallimg{
+    width: auto;
+  }
+  .smalltxt{
+    bottom: 10%;
+    font-size: 85%;
+  }
+  .music{
+    width: auto;
+  }
+  .button{
+    width: 20px;
+    height: 15px;
+  }
+  @keyframes kolonki{
+    from { width: 190px; top: 0px; left: 0px; }
+    to { width: 220px; top: -15px; left: -15px;}
+  }
+  .kolonka2{
+    margin-left: 386px;
+    margin-top: 128px;
+  }
+  .kolonka1{
+    margin-top: 128px;
+  }
+  .bb1, .bb2, .bb3, .bb4, .bb5{
+    width: auto;
+  }
+  .discalone{
+    width: auto;
+  }
+  .vinyl{
+    width: 315px;
+    height: 315px;
+  }
+  .vdisc{
+    width: auto;
+  }
+  .wire{
+    margin-left: -110px;
+  }
+  .wire3{
+    width: 220px;
+    top: -40px;
+  }
+  .wire4{
+    width: 67px;
+    top: -40px;
+  }
+  .wire5{
+    width: 265px;
+  }
+  .radiomain{
+    width: 445px;
+  }
+  .radiobutton {
+    width: 45px;
+    left: 369px;
+    top: 96px;
+  }
+  .radio{
+    margin-left: 55px;
+  }
+  .antena{
+    height: 410px;
+    left: 270px;
+    top: -225px;
+  }
+  @keyframes antena {
+    0% { transform: rotate(45deg) translatex(0px) translatey(0px);}
+    50% { transform: rotate(-5deg) translatex(-160px) translatey(-65px);}
+    100% { transform: rotate(45deg) translatex(0px) translatey(0px);}
+  }
+  .shelf8{
+    width: 560px;
+    height: 40px;
+  }
+  .udl{
+    width: 1250px;
+  }
+  .footer {
+    position: absolute;
+    font-size: 22px;
+    line-height: 25px;
+    right: 484px;
+    top: 65px;
+  }
+  .allvinyl{
+    bottom: 38px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px){
   body{
     width: 1024px;
   }
@@ -412,7 +575,205 @@
   .shelf1{
     top: 75px;
   }
-} */
+  .wire2{
+    width: 530px;
+    left: 493px;
+    top: -33px;
+  }
+  .wire1{
+    width: 210px;
+    left: 283px;
+    top: -33px;
+  }
+  .disc0, .disc2, .disc8, .disc9, .disc10{
+    display: none;
+  }
+  .disc{
+    width: 180px;
+  }
+  .schbook{
+    width: 343px;
+    height: 30px;
+  }
+  .disc{
+    margin-left: -104px;
+  }
+  .disc1{
+    margin-left: 0px;
+  }
+  .disc5{
+    margin-left: -4px;
+  }
+  .name2{
+    width: 160px;
+    height: 110px;
+    left: 183px;
+    top: 66px;
+  }
+  .shelff, .shelf2, .shelf3, .shelf4, .shelf5, .shelf6, .shelf7, .shelf8{
+    height: 34px;
+  }
+  .tape3{
+    display: none;
+  }
+  .PCimg{
+    width: 170px;
+  }
+  .monitor{
+    width: 420px;
+    height: 320px;
+  }
+  .schbookk, .schbook1{
+    width: 30px;
+    height: 343px;
+  }
+  .sch5{
+    left: 753px;
+    bottom: 23px;
+  }
+  .name4{
+    width: 407px;
+    height: 151px;
+    left: 367px;
+    top: 178px;
+  }
+  .sm{
+    display: none;
+  }
+  .smallimg{
+    width: 33px;
+  }
+  .music{
+    width: 485px;
+  }
+  .button{
+    width: 15px;
+    height: 12px;
+  }
+  .buttonss{
+    top: 35%;
+  }
+  @keyframes kolonki{
+    from { width: 157px; top: 0px; left: 0px; }
+    to { width: 180px; top: -15px; left: -15px;}
+  }
+  .kolonka2{
+    margin-left: 318px;
+    margin-top: 105px;
+  }
+  .kolonka1{
+    margin-top: 105px;
+  }
+  .wire3{
+    width: 156px;
+    left: 175px;
+  }
+  .wire4{
+    width: 47px;
+    top: -33px;
+    left: 230px;
+  }
+  .small1 {
+    margin-left: 407px;
+  }
+  .shelf5{
+    width: 653px;
+    left: 371px;
+  }
+  .shelf4{
+    width: 100%;
+  }
+  .name6{
+    left: 453px;
+    top: -33px;
+  }
+  .wire5{
+    width: 150px;
+    right: -84px;
+  }
+  .tapessecond{
+    margin-top: 315px;
+  }
+  .tape4, .tape5{
+    width: 144px;
+  }
+  .shelf6 {
+    width: 887px;
+  }
+  .bottombooks {
+    position: absolute;
+    margin: 0px;
+    right: 306px;
+    bottom: 318px;
+  }
+  .discalone {
+    width: 180px;
+    position: absolute;
+    right: 200px;
+    bottom: 318px;
+  }
+  .vinyl {
+    width: 260px;
+    height: 260px;
+  }
+  .vdisc {
+    width: 260px;
+    margin-left: -130px;
+  }
+  .shelf7{
+    margin-top: 262px;
+  }
+  .allvinyl{
+    bottom: 31px;
+    right: 90px;
+  }
+  .full2, .full3{
+    margin-left: -188px;
+  }
+  .bb{
+    height: 33px;
+  }
+  .bottombooks{
+    right: 425px;
+    bottom: 335px;
+  }
+  .discalone{
+    right: 310px;
+    bottom: 331px;
+  }
+  .udl {
+    bottom: -373px;
+    width: 1200px;
+  }
+  .footer {
+    right: 435px;
+    top: 306px;
+  }
+  .radiomain{
+    width: 373px;
+  }
+  .radio{
+    margin-left: 148px;
+  }
+  .antena{
+    height: 345px;
+    left: 165px;
+    top: -219px;
+  }
+  @keyframes antena {
+    0% { transform: rotate(45deg) translatex(0px) translatey(0px);}
+    50% { transform: rotate(-5deg) translatex(-70px) translatey(-60px);}
+    100% { transform: rotate(45deg) translatex(0px) translatey(0px);}
+  }
+  .wire{
+    width: 150px;
+  }
+  .radiobutton{
+    width: 33px;
+    left: 311px;
+    top: 83px;
+  }
+}
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   /* iPad Portrait */
 }

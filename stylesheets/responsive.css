@@ -535,7 +535,7 @@
     width: 143px;
   }
   .smallimg{
-    width: auto;
+    width: 33px;
   }
   .smalltxt{
     bottom: 12%;
@@ -709,8 +709,9 @@
   }
   .booksalot{
     margin-top: -150px;
-    left: 50px;
+    left: -23px;
     top: -2px;
+    z-index: -1;
   }
   .disc0, .disc2, .disc5, .disc6, .disc7, .disc8, .disc9, .disc10{
     display: none;
@@ -766,8 +767,16 @@
   .schbookk{
     margin-left: 4px;
   }
+  .tape3{
+    left: -73px;
+  }
   .tape3img{
-    display: none;
+    width: 164px;
+  }
+  .tape3txt {
+    left: 39%;
+    top: 35%;
+    font-size: 105%;
   }
   .shelf33{
     position: relative;
@@ -828,6 +837,110 @@
   .name4txt{
     font-size: 174%;
     padding: 7%;
+  }
+  .shelf5, .shelf6, .shelf7{
+    height: 22px;
+    width: 100%
+  }
+  .tape4{
+    width: 105px;
+    margin-left: 0px;
+  }
+  .tape5{
+    width: 105px;
+  }
+  .small{
+    display: none;
+  }
+  .small1{
+    display: none;
+  }
+  .smallbooks, .smallbooks2{
+    position: absolute;
+  }
+  .smallimg{
+    width: 30px;
+  }
+  .smalltxt{
+    bottom: 12%;
+  }
+  .music{
+    width: 100%;
+    margin-top: -16px;
+  }
+  .button{
+    width: 12px;
+    height: 10px;
+  }
+  @keyframes kolonki{
+    from { width: 134px; top: 0px; left: 0px; }
+    to { width: 154px; top: -15px; left: -15px;}
+  }
+  .kolonka2{
+    margin-left: 278px;
+    margin-top: 92px;
+  }
+  .kolonka1{
+    margin-top: 92px;
+  }
+  .bb1, .bb2, .bb3, .bb4, .bb5{
+    width: 135px;
+  }
+  .discalone{
+    width: 130px;
+    position: absolute;
+    right: 0px;
+    bottom: 224px;
+  }
+  .bottombooks{
+    position: absolute;
+    margin: 0px;
+    right: 100px;
+    bottom: 224px;
+  }
+  .vinyl{
+    width: 181px;
+    height: 181px;
+  }
+  .vdisc{
+    width: 181px;
+    margin-left: -90px;
+  }
+  .sm{
+    display: none;
+  }
+  .polkak{
+    position: relative;
+    display: block;
+  }
+  .name6{
+    width: 260px;
+    height: 143px;
+    top: -22px;
+    left: 100px;
+  }
+  .name6txt{
+    font-size: 200%;
+    line-height: 100%;
+  }
+  .tapessecond{
+    margin-top: -117px;
+  }
+  .tape5txt{
+    left: 38%;
+  }
+  .allvinyl{
+    position: relative;
+    display: block;
+  }
+  .allvinyl{
+    bottom: 0px;
+  }
+  .full2{
+    margin-left: -145px;
+  }
+  .full3{
+    display: none;
   }
 }
 

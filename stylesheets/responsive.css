@@ -8,10 +8,6 @@
   .t1, .t2{
     width: 275px;
   }
-  .tapetxt1, .tapetxt2{
-  left: 102px;
-  bottom: 122px;
-  }
   .diskovod1, .diskovod2{
     width: 420px;
   }
@@ -97,6 +93,88 @@
   .disc5{
     margin-left: -4px;
   }
+  .PCimg{
+    width: auto;
+  }
+  .monitor{
+    width: 480px;
+    height: 380px;
+  }
+  .tape3img{
+    width: auto;
+  }
+  .schbookk{
+    width: 36px;
+    height: 416px;
+  }
+  .schbook1{
+    width: 36px;
+    height: 416px;
+    left: 883px;
+  }
+  .shelf4{
+    width: 1280px;
+  }
+  .name5{
+    top: 344px;
+  }
+  .name4{
+    top: 215px;
+  }
+  .shelf5, .shelf6, .shelf7{
+    height: 40px;
+  }
+  .shelf5{
+    width: 1000px;
+    left: 54px;
+  }
+  .shelf6{
+    width: 430px;
+  }
+  .tape4{
+    width: auto;
+    margin-left: 0px;
+  }
+  .tape5{
+    width: auto;
+  }
+  .smallimg{
+    width: auto;
+  }
+  .smalltxt{
+    bottom: 12%;
+  }
+  .music{
+    width: auto;
+  }
+  .button{
+    width: 20px;
+    height: 15px;
+  }
+  @keyframes kolonki{
+    from { width: 190px; top: 0px; left: 0px; }
+    to { width: 220px; top: -15px; left: -15px;}
+  }
+  .kolonka2{
+    margin-left: 386px;
+    margin-top: 128px;
+  }
+  .kolonka1{
+    margin-top: 128px;
+  }
+  .bb1, .bb2, .bb3, .bb4, .bb5{
+    width: auto;
+  }
+  .discalone{
+    width: auto;
+  }
+  .vinyl{
+    width: 315px;
+    height: 315px;
+  }
+  .vdisc{
+    width: auto;
+  }
 }
 @media only screen and (min-width: 1025px) and (max-width: 1366px){
   body{
@@ -114,10 +192,7 @@
   .t1, .t2{
     width: 275px;
   }
-  .tapetxt1, .tapetxt2{
-  left: 102px;
-  bottom: 122px;
-  }
+
   .diskovod1, .diskovod2{
     width: 420px;
   }
@@ -172,7 +247,7 @@
     top: 110px;
   }
 }
-@media only screen and (max-width: 1024px){
+/* @media only screen and (max-width: 1024px){
   body{
     width: 1024px;
   }
@@ -200,11 +275,6 @@
   }
   .t1, .t2{
     width: 228px;
-  }
-  .tapetxt1, .tapetxt2{
-  font-size: 15px;
-  left: 84px;
-  bottom: 102px;
   }
   .lol{
     width: 228px;
@@ -273,7 +343,7 @@
   .shelf1{
     top: 75px;
   }
-}
+} */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* iPad */
   body{
@@ -310,7 +380,7 @@
     top: 58px;
   }
   .shelf2{
-    margin-top: -11px;
+    margin-top: -5px;
   }
   .name1{
     width: 215px;
@@ -350,10 +420,6 @@
   .lol{
     height: 133px;
   }
-  .tapetxt1, .tapetxt2{
-    left: 75px;
-    bottom: 94px;
-  }
   .wire1{
     width: 159px;
     left: 225px;
@@ -385,7 +451,7 @@
     margin-left: -105px;
     margin-top: -163px;
     z-index: 1;
-    top: -11px;
+    top: -5px;
   }
   .kek {
     height: 25px;
@@ -414,6 +480,142 @@
   .disc1{
     margin-left: -4px;
   }
+  .PCimg{
+    width: 170px;
+  }
+  .monitor{
+    width: 400px;
+    height: 315px;
+  }
+  .schbookk{
+    width: 30px;
+    height: 338px;
+  }
+  .schbook1{
+    width: 30px;
+    height: 338px;
+  }
+  .shelf4{
+    height: 26px;
+    width: 100%;
+  }
+  .name4{
+    height: 124px;
+    width: 310px;
+    left: 300px;
+    top: 178px;
+  }
+  .name4txt{
+    font-size: 200%;
+  }
+  .tape3{
+    display: none;
+  }
+  .name5{
+    top:270px;
+  }
+  .sch5{
+    margin-left: 70px;
+  }
+  .shelf5, .shelf6, .shelf7{
+    height: 26px;
+  }
+  .shelf5{
+    width: 683px;
+    left: 85px;
+  }
+  .shelf6{
+    width: 647px;
+  }
+  .tape4{
+    width: 143px;
+    margin-left: 0px;
+  }
+  .tape5{
+    width: 143px;
+  }
+  .smallimg{
+    width: auto;
+  }
+  .smalltxt{
+    bottom: 12%;
+  }
+  .music{
+    width: 485px;
+  }
+  .button{
+    width: 15px;
+    height: 12px;
+  }
+  @keyframes kolonki{
+    from { width: 157px; top: 0px; left: 0px; }
+    to { width: 180px; top: -15px; left: -15px;}
+  }
+  .kolonka2{
+    margin-left: 322px;
+    margin-top: 107px;
+  }
+  .kolonka1{
+    margin-top: 107px;
+  }
+  .bb1, .bb2, .bb3, .bb4, .bb5{
+    width: 180px;
+  }
+  .discalone{
+    width: 180px;
+    position: absolute;
+    right: 200px;
+    bottom: 309px;
+  }
+  .bottombooks{
+    position: absolute;
+    margin: 0px;
+    right: 306px;
+    bottom: 309px;
+  }
+  .vinyl{
+    width: 260px;
+    height: 260px;
+  }
+  .vdisc{
+    width: 260px;
+  }
+  .sm{
+    display: none;
+  }
+  .polkak{
+    position: relative;
+    display: block;
+  }
+  .name6{
+    width: 260px;
+    height: 143px;
+    top: -26px;
+    left: 278px;
+  }
+  .name6txt{
+    font-size: 200%;
+    line-height: 100%;
+  }
+  .tapessecond{
+    margin-top: -117px;
+  }
+  .tape5txt{
+    left: 48%;
+  }
+  .allvinyl{
+    position: relative;
+    display: block;
+  }
+  .allvinyl{
+    bottom: 0px;
+  }
+  .full2, .full3{
+    margin-left: -210px;
+  }
+  .vdisc{
+    margin-left: -135px;
+    }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   /* iPad Portrait */
@@ -429,12 +631,9 @@
     width: 414px;
   }
   .borderline{
-    border-radius: 2.5px;
-    outline: 2.5px solid black;
-    outline-offset: -2.5px;
-  }
-  .wire1, .wire2{
-    display: none;
+    border-radius: 3px;
+    outline: 3px solid black;
+    outline-offset: -3px;
   }
   .name{
     height: 182px;
@@ -448,6 +647,9 @@
   }
   .shelff, .shelf2, .shelf3{
     height: 22px
+  }
+  .shelf2{
+    margin-top: -2px;
   }
   .lol{
     width: 228px;
@@ -465,13 +667,9 @@
   .t2{
     height: 90px;
   }
-  .tapetxt1, .tapetxt2{
-    font-size: 11px;
-    left: 95px;
-    bottom: 62px;
-  }
   .shelf1{
     width: 390px;
+    top: 40px;
   }
   .shelff{
     width: 250px;
@@ -494,6 +692,9 @@
   .wiredisc1, .wiredisc2{
     width: 15px;
   }
+  .tvCD{
+    left: 0px;
+  }
   .tvshum{
     width: 267px;
     height: 232px;
@@ -507,7 +708,9 @@
     left: 204px;
   }
   .booksalot{
-    margin-top: -316px;
+    margin-top: -150px;
+    left: 50px;
+    top: -2px;
   }
   .disc0, .disc2, .disc5, .disc6, .disc7, .disc8, .disc9, .disc10{
     display: none;
@@ -538,6 +741,93 @@
   .name2txt{
     font-size: 150%;
     line-height: 80%;
+  }
+  .wire1{
+    width: 110px;
+    left: 0px;
+    top: -22px;
+  }
+  .wire2{
+    width: 280px;
+    left: 131px;
+    top: -22px;
+  }
+  .PCimg{
+    width: 123px;
+  }
+  .monitor{
+    width: 290px;
+    height: 230px;
+  }
+  .schbook1, .schbookk{
+    height: 229px;
+    width: 20px;
+  }
+  .schbookk{
+    margin-left: 4px;
+  }
+  .tape3img{
+    display: none;
+  }
+  .shelf33{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 22px;
+    background-color: white;
+    margin-top: -4px;
+  }
+  .name5{
+    height: 66px;
+    width: 95px;
+    top: 451px;
+  }
+  .kek{
+    height: 20px;
+    width: 140px;
+  }
+  .shelf4{
+    height: 22px;
+    width: 100%
+  }
+  .sch5{
+    left: 110px;
+    bottom: 14px;
+  }
+  .tapetxt1 {
+    left: 36%;
+    font-size: 96%;
+  }
+  .txtbooksalot{
+    font-size: 70%;
+  }
+  .name5txt{
+    font-size: 150%;
+    line-height: 80%;
+  }
+  .cltxt2{
+    padding: 2% 1%;
+    font-size: 100%;
+  }
+  .cltxt3 {
+    position: absolute;
+    padding: 2% .5%;
+    font-size: 100%;
+  }
+  .cltxt4 {
+    position: absolute;
+    padding: 60% 8%;
+    font-size: 100%;
+  }
+  .name4{
+    left: 10px;
+    width: 259px;
+    height: 100px;
+    top: 118px;
+  }
+  .name4txt{
+    font-size: 174%;
+    padding: 7%;
   }
 }
 

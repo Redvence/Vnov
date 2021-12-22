@@ -3,6 +3,9 @@
   display: block;
   margin-top: -3px;
 }
+.shelf33{
+  display: none;
+}
 .wire1{
   position: absolute;
   left: 1015px;
@@ -18,6 +21,7 @@
   width: 600px;
 }
 .shelf3{
+  position: relative;
   display:block;
   width: 100%;
   height: 44px;
@@ -131,14 +135,14 @@
 .monitor{
   position: relative;
   display: block;
-  width: 480px;
-  height: 378px;
+  width: 530px;
+  height: 420px;
   background-color: #DADADA;
 }
 .xp{
-  width: 392px;
-  height: 290px;
-  margin: 44px;
+  width: 81%;
+  height: 78%;
+  margin: 8.7%;
 }
 .sch4{
   position: relative;
@@ -155,13 +159,13 @@
   margin-left: -4px;
 }
 .schbookk{
-  height: 416px;
-  width: 36px;
+  height: 460px;
+  width: 41px;
   display: inline-block;
 }
 .schbook1{
-  height: 416px;
-  width: 36px;
+  height: 460px;
+  width: 41px;
   display: inline-block;
   margin-left: -4px;
 }
@@ -170,34 +174,35 @@
   display: inline-block;
   transform: rotate(-25deg);
   background-color: #1F3E8F;
-  margin-left: 84px;
-  margin-top: 13px;
+  left: 979px;
+  bottom: 29px;
 }
 .cltxt2{
   position: absolute;
-  padding: 20px 9px;
-  font-size: 24px;
+  padding:  1% 0.5%;
+  font-size: 200%;
 }
 .cltxt3{
   position: absolute;
-  padding: 20px 5px;
-  font-size: 24px;
+  padding:  1% 0.1%;
+  font-size: 200%;
 }
 .cltxt4{
   position: absolute;
-  padding: 20px 5px;
-  font-size: 24px;
+  padding:  60% 8%;
+  font-size: 200%;
 }
 .tape3{
   display:inline-block;
   position: relative;
-  margin-left: 112px;
+  margin-left: 135px;
 }
 .tape3txt{
   position: absolute;
   transform: rotate(46.34deg);
-  margin-left: 157px;
-  margin-top: 122px;
+  left: 46%;
+  top: 36%;
+  font-size: 150%;
 }
 .name2{
   position: absolute;
@@ -218,33 +223,45 @@
   width: 400px;
   height: 170px;
   background-color: white;
-  margin-left: 890px;
-  margin-top: -40px;
+  left: 950px;
+  top: 245px;
+  z-index: 4;
 }
 .name4txt{
   position: relative;
-  padding: 40px;
+  padding: 10%;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 250%;
 }
 .name5{
   position: absolute;
   width: 160px;
   height: 100px;
   background-color: white;
-  margin-top: 316px;
+  top: 390px;
 }
 .name5txt{
   position: relative;
-  font-size: 32px;
-  line-height: 24px;
-  padding: 14px;
+  font-size: 200%;
+  line-height: 80%;
+  padding: 10%;
 }
 .shelf4{
   position: relative;
   display: block;
-  width: 1280px;
-  height: 40px;
+  width: 1412px;
+  height: 44px;
   background-color: white;
   margin-top: -4px;
+}
+.PCimg{
+  width: 226px;
+}
+.comp{
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.tape3img{
+  width: 335px;
 }

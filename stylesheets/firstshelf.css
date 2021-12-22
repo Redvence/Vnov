@@ -28,7 +28,7 @@ body {
 }
 .borderline{
   border-radius: 5px;
-  outline: 5px solid black;
+  outline: 6px solid black;
   outline-offset: -5px;
 }
 .name{
@@ -74,19 +74,12 @@ body {
   position: relative;
   z-index: 0;
 }
-.tapetxt1{
+.tapetxt1 {
   position: absolute;
   z-index: 1;
-  left: 120px;
-  bottom: 120px;
-  font-size: 18px;
-}
-.tapetxt2{
-  z-index: 1;
-  position: absolute;
-  left: 120px;
-  bottom: 120px;
-  font-size: 18px;
+  left: 37%;
+  bottom: 66%;
+  font-size: 150%;
 }
 .lol{
   position: relative;

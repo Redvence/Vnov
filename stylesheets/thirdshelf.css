@@ -146,9 +146,9 @@
   100% { top: 0px; left:0px; }
 }
 @keyframes b2{
-  0% { top: 37px; left:0px; }
+  0% { top: 34px; left:0px; }
   50% { top: 5px; left: 0px;}
-  100% { top: 37px; left:0px; }
+  100% { top: 34px; left:0px; }
 }
 @keyframes b3{
   0% { top: 0px; left:0px; }

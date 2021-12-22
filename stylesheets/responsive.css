@@ -2,8 +2,32 @@
   body{
     width: 1440px;
   }
+  .borderline{
+    border-radius: 4.5px;
+    outline: 5.5px solid black;
+    outline-offset: -4.5px;
+  }
   .name{
     height: 360px;
+  }
+  .tapetxt1 {
+    left: 35%;
+    bottom: 68%;
+    font-size: 137%;
+  }
+  .txtbooksalot{
+    font-size: 100%;
+  }
+  .tape3{
+    margin-left: 115px;
+  }
+  .tape3txt{
+    left: 46%;
+    top: 37%;
+    font-size: 137%;
+  }
+  .cltxt, .cltxt2, .cltxt3, .cltxt4{
+    font-size: 170%;
   }
   .t1, .t2{
     width: 275px;
@@ -142,7 +166,8 @@
     width: auto;
   }
   .smalltxt{
-    bottom: 12%;
+    bottom: 10%;
+    font-size: 85%;
   }
   .music{
     width: auto;
@@ -175,8 +200,53 @@
   .vdisc{
     width: auto;
   }
-}
-@media only screen and (min-width: 1025px) and (max-width: 1366px){
+  .wire3{
+    width: 220px;
+    top: -47px;
+  }
+  .wire4{
+    width: 67px;
+    top: -47px;
+  }
+  .wire5{
+    width: 265px;
+  }
+  .radiomain{
+    width: 445px;
+  }
+  .radiobutton {
+    width: 45px;
+    left: 369px;
+    top: 96px;
+  }
+  .antena{
+    height: 410px;
+    left: 270px;
+    top: -225px;
+  }
+  @keyframes antena {
+    0% { transform: rotate(45deg) translatex(0px) translatey(0px);}
+    50% { transform: rotate(-5deg) translatex(-160px) translatey(-65px);}
+    100% { transform: rotate(45deg) translatex(0px) translatey(0px);}
+  }
+  .shelf8{
+    width: 650px;
+    height: 40px;
+  }
+  .udl{
+    width: 1250px;
+  }
+  .footer {
+    position: absolute;
+    font-size: 22px;
+    line-height: 25px;
+    right: 484px;
+    top: 65px;
+  }
+  .allvinyl{
+    bottom: 38px;
+  }
+/* @media only screen and (min-width: 1025px) and (max-width: 1366px){
   body{
     width: 1366px;
   }
@@ -192,7 +262,6 @@
   .t1, .t2{
     width: 275px;
   }
-
   .diskovod1, .diskovod2{
     width: 420px;
   }
@@ -246,7 +315,7 @@
   .shelf1{
     top: 110px;
   }
-}
+} */
 /* @media only screen and (max-width: 1024px){
   body{
     width: 1024px;
@@ -344,279 +413,6 @@
     top: 75px;
   }
 } */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  /* iPad */
-  body{
-    width: 768px;
-  }
-  .borderline{
-    border-radius: 3.5px;
-    outline: 3.5px solid black;
-    outline-offset: -3.5px;
-  }
-  .name{
-    height: 250px;
-  }
-  .text1{
-    font-size: 55px;
-    padding-top: 30px;
-    padding-left: 30px;
-  }
-  .text3{
-    font-size: 20px;
-    line-height: 25px;
-    padding-left: 32px;
-    padding-top: 12px;
-  }
-  .shelff, .shelf2, .shelf3{
-    height: 30px;
-  }
-  .shelff{
-    width: 355px;
-  }
-  .shelf1 {
-    width: 485px;
-    height: 235px;
-    top: 58px;
-  }
-  .shelf2{
-    margin-top: -5px;
-  }
-  .name1{
-    width: 215px;
-    height: 100px;
-    top: -34px;
-    left: 63px;
-  }
-  .book{
-    width: 60px;
-  }
-  .allbooks1{
-    width: 626px;
-    height: 262px;
-    margin-left: -360px;
-  }
-  .book2 {
-    left: 508px;
-  }
-  .book3 {
-    left: 408px;
-  }
-  .book5, .book4{
-    display: none;
-  }
-  .date {
-    font-size: 26px;
-    left: -58px;
-    top: 96px;
-  }
-  .text2{
-    font-size: 32px;
-  line-height: 31px;
-  }
-  .t1, .t2{
-    width: 205px;
-  }
-  .lol{
-    height: 133px;
-  }
-  .wire1{
-    width: 159px;
-    left: 225px;
-    top: -30px;
-  }
-  .wire2{
-    width: 402px;
-    left: 363px;
-    top: -30px;
-  }
-  .diskovod1, .diskovod2{
-    width: 315px;
-  }
-  .wiredisc1 {
-    width: 26px;
-    top: 163px;
-    left: 207px;
-  }
-  .wiredisc2 {
-    width: 26px;
-    top: 31px;
-    left: 311px;
-  }
-  .tvshum{
-    width: 405px;
-    height: 345px;
-  }
-  .booksalot {
-    margin-left: -105px;
-    margin-top: -163px;
-    z-index: 1;
-    top: -5px;
-  }
-  .kek {
-    height: 25px;
-    width: 165px;
-  }
-  .disc{
-    width: 178px;
-    margin-left: -144px;
-  }
-  .disc0, .disc3, .disc6, .disc7, .disc8, .disc9, .disc10{
-    display: none;
-  }
-  .schbook{
-    width: 340px;
-    height: 30px;
-  }
-  .name2{
-    left: 135px;
-    top: 65px;
-    width: 149px;
-    height: 112px;
-  }
-  .disc5{
-    margin-left: -4px;
-  }
-  .disc1{
-    margin-left: -4px;
-  }
-  .PCimg{
-    width: 170px;
-  }
-  .monitor{
-    width: 400px;
-    height: 315px;
-  }
-  .schbookk{
-    width: 30px;
-    height: 338px;
-  }
-  .schbook1{
-    width: 30px;
-    height: 338px;
-  }
-  .shelf4{
-    height: 26px;
-    width: 100%;
-  }
-  .name4{
-    height: 124px;
-    width: 310px;
-    left: 300px;
-    top: 178px;
-  }
-  .name4txt{
-    font-size: 200%;
-  }
-  .tape3{
-    display: none;
-  }
-  .name5{
-    top:270px;
-  }
-  .sch5{
-    margin-left: 70px;
-  }
-  .shelf5, .shelf6, .shelf7{
-    height: 26px;
-  }
-  .shelf5{
-    width: 683px;
-    left: 85px;
-  }
-  .shelf6{
-    width: 647px;
-  }
-  .tape4{
-    width: 143px;
-    margin-left: 0px;
-  }
-  .tape5{
-    width: 143px;
-  }
-  .smallimg{
-    width: 33px;
-  }
-  .smalltxt{
-    bottom: 12%;
-  }
-  .music{
-    width: 485px;
-  }
-  .button{
-    width: 15px;
-    height: 12px;
-  }
-  @keyframes kolonki{
-    from { width: 157px; top: 0px; left: 0px; }
-    to { width: 180px; top: -15px; left: -15px;}
-  }
-  .kolonka2{
-    margin-left: 322px;
-    margin-top: 107px;
-  }
-  .kolonka1{
-    margin-top: 107px;
-  }
-  .bb1, .bb2, .bb3, .bb4, .bb5{
-    width: 180px;
-  }
-  .discalone{
-    width: 180px;
-    position: absolute;
-    right: 200px;
-    bottom: 309px;
-  }
-  .bottombooks{
-    position: absolute;
-    margin: 0px;
-    right: 306px;
-    bottom: 309px;
-  }
-  .vinyl{
-    width: 260px;
-    height: 260px;
-  }
-  .vdisc{
-    width: 260px;
-  }
-  .sm{
-    display: none;
-  }
-  .polkak{
-    position: relative;
-    display: block;
-  }
-  .name6{
-    width: 260px;
-    height: 143px;
-    top: -26px;
-    left: 278px;
-  }
-  .name6txt{
-    font-size: 200%;
-    line-height: 100%;
-  }
-  .tapessecond{
-    margin-top: -117px;
-  }
-  .tape5txt{
-    left: 48%;
-  }
-  .allvinyl{
-    position: relative;
-    display: block;
-  }
-  .allvinyl{
-    bottom: 0px;
-  }
-  .full2, .full3{
-    margin-left: -210px;
-  }
-  .vdisc{
-    margin-left: -135px;
-    }
-}
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   /* iPad Portrait */
 }

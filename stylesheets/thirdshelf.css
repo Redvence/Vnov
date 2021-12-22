@@ -3,6 +3,9 @@
   display: block;
   overflow: hidden;
 }
+.provoda{
+  position: absolute;
+}
 .polkak{
   position: absolute;
   right: 0px;
@@ -10,7 +13,8 @@
 .tapessecond{
   position: relative;
   display: inline-block;
-  margin-top: 190px;}
+  margin-top: 190px;
+}
 .tape5ani{
   position: relative;
   display: inline-block;
@@ -61,7 +65,7 @@
 .small1{
   position: relative;
   display: inline-block;
-  margin-left: 100px;
+  margin-left: 68px;
   animation-play-state: paused;
 }
 .small:hover{
@@ -366,6 +370,18 @@
   display: block;
   margin-top: -4px;
 }
+.footerpart1{
+  position: relative;
+  display: block;
+}
+.footerpart2{
+  position: relative;
+  display: block;
+}
+.radiomain{
+  width: 545px;
+  z-index: 2;
+}
 .radio{
   display: inline-block;
   position: relative;
@@ -374,9 +390,10 @@
   margin-top: -4px;
 }
 .radiobutton{
+  width: 50px;
   position: absolute;
-  margin-left: 373px;
-  margin-top: 100px;
+  left: 454px;
+  top: 121px;
   animation: button 3s infinite running;
 }
 @keyframes button {
@@ -389,46 +406,46 @@
 }
 .antena{
   position: absolute;
-  margin-left: 40px;
-  margin-top: -130px;
+  left: 360px;
+  top: -291px;
   z-index: -1;
   animation: antena 3s infinite running;
 }
 @keyframes antena {
-  0% { transform: rotate(0deg) translateY(0px);}
-  50% { transform: rotate(-40deg) translateY(-120px);}
-  100% { transform: rotate(0deg) translateY(0px);}
+  0% { transform: rotate(45deg) translatex(0px) translatey(0px);}
+  50% { transform: rotate(-5deg) translatex(-180px) translatey(-80px);}
+  100% { transform: rotate(45deg) translatex(0px) translatey(0px);}
 }
 .shelf8{
-background-color: white;
-width: 650px;
-height: 40px;
-position: relative;
-display: block;
-margin-top: -4px;
+  background-color: white;
+  width: 800px;
+  height: 44px;
+  position: relative;
+  display: block;
+  margin-top: -4px;
 }
 .udl{
-  position: relative;
-  margin-top: -300px;
+  position: absolute;
+  right: 0px;
+  bottom: -130px;
 }
 .footer{
-  display: block;
-  position: relative;
+  position: absolute;
   font-size: 24px;
   line-height: 30px;
-  margin-right: 475px;
-  margin-top: -75px;
+  right: 688px;
+  top: 48px;
 }
 .wire3{
   position: absolute;
-  margin-left: 375px;
-  margin-top: -40px;
+  left: 375px;
+  top: -40px;
   z-index: 5;
 }
 .wire4{
   position: absolute;
-  margin-left: 475px;
-  margin-top: -40px;
+  left: 475px;
+  top: -40px;
   z-index: 5;
   animation: wire4 4s infinite;
 }
@@ -438,14 +455,15 @@ margin-top: -4px;
   100% {transform: rotateZ(2deg) translateX(-10px);}
 }
 .wire5{
+  width: 300px;
   position: absolute;
-  margin-left: 1195px;
-  margin-top: 57px;
+  right: 0px;
+  top: 57px;
   z-index: 5;
 }
 .wire{
   position: absolute;
-  margin-left: 0px;
-  margin-top: 200px;
+  left: 0px;
+  top: 200px;
   z-index: 5;
 }

@@ -251,6 +251,11 @@
   body{
     width: 1366px;
   }
+  .borderline{
+    border-radius: 4px;
+    outline: 5px solid black;
+    outline-offset: -4px;
+  }
   .allbooks1{
     margin-left: -98px;
   }
@@ -491,6 +496,22 @@
   .name{
     height: 300px;
     z-index: 2;
+  }
+  .tapetxt1{
+    left: 34%;
+    bottom: 68%;
+    font-size: 125%;
+  }
+  .txtbooksalot{
+    font-size: 90%;
+  }
+  .cltxt{
+    font-size: 160%;
+  }
+  .tape5txt{
+    font-size: 19px;
+    left: 49%;
+    top: 46%;
   }
   .text1{
     font-size: 60px;

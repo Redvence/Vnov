@@ -984,9 +984,9 @@
     width: 100%;
     margin-top: -16px;
   }
-  .button{
-    width: 12px;
-    height: 10px;
+  .button {
+    width: 9.5px;
+    height: 8px;
   }
   @keyframes kolonki{
     from { width: 115px; top: 0px; left: 0px; }
@@ -1123,6 +1123,6 @@
     font-size: 90%;
   }
   .buttonss{
-    top: 29%;
+    top: 27%;
   }
 }
